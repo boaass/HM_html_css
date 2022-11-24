@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单域</title>
+</head>
+<body>
+    <form action="demo.php" method="get" name="name1" target="_blank">
+        用户名: <input type="text" name="username" value="请输入用户名"> <br>
+        密码: <input type="password" name="pwd" maxlength="8"> <br>
+        性别: 男 <input type="radio" name="sex" value="男" checked="checked"> 女 <input type="radio" name="sex" value="女"> <br>
+        爱好: 吃饭 <input type="checkbox" name="hobby" value="吃饭" checked="checked"> 睡觉 <input type="checkbox" name="hobby" value="睡觉"> 打豆豆 <input type="checkbox" name="hobby" value="打豆豆"> <br>
+        <input type="submit" value="免费注册"> <br>
+        <input type="reset" value="重新填写"> <br>
+        <input type="button" value="获取短信验证码"> <br>
+        
+        <label for="upload">上传头像</label>
+        <input type="file" id="upload"> <br>
+        
+        籍贯:
+        <select name="location">
+            <option value="山东">山东</option>
+            <option value="北京">北京</option>
+            <option selected="selected" value="tj">天津</option>
+        </select> <br>
+        
+        个人简介:
+        <textarea cols="50" rows="5">我是textarea我是textarea我是textarea</textarea>
+    </form>
+</body>
+</html>
